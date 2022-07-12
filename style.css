@@ -1,0 +1,140 @@
+ body {
+           background-color: white;
+           margin :0;
+           text-align: center;
+           font-family: Arial;
+         }
+
+         hr {
+            width :6%;
+            border: 10px dotted Gray;
+            border-style: none none dotted;
+            color: #FAD9A1;
+
+         }
+         h1{
+            color: black;
+            padding-top : 100;
+            font-family:Papyrus;
+            font-size :50;
+         }
+         h2{
+            color: black;
+            margin-top : 10;
+         }
+         h3{
+            color: black;
+            margin-bottom:50;
+            font-family:Papyrus;
+
+         }
+
+  .volcano{
+       margin: 0 0 0 0;
+
+  }
+  .cloud1{
+    position:absolute;
+    right: 800;
+    top:40
+
+  }
+  .cloud2{
+    position:absolute;
+    right:150;
+    top:220;
+  }
+.first_section{
+    background-color : #7FDBDA;
+}
+
+.contact_me{
+  padding-top :50
+
+}
+.skills{
+  padding-top :50
+}
+.profile{
+  padding-top:50
+}
+.akhar{
+  background-color: #7FDBDA;
+
+  padding-bottom:30;
+  font-family: Adobe Song Std;
+}
+.p1{
+  color:white;
+  padding-top:50;
+}
+.p2{
+  color:black;
+  padding-top:20;
+  word-spacing: 70px;
+}
+.contact-p1{
+  font-family:corbel;
+}
+.bio_p{
+  font-family:corbel;
+
+}
+.p_skills{
+   font-family:corbel;
+}
+
+
+
+/* CSS */
+.button-10 {
+  position:absolute
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 10px;
+  border: none;
+  right:500;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.Button-10:hover{
+    cursor: hand;
+    cursor: pointer;
+}
+
+.twitter{
+     position:absolute;
+     right:650;
+     font-family:corbel;
+     color:#809A6F;
+}
+.Telegram{
+     position:absolute;
+     right:380;
+     font-family:corbel;
+
+     color:#809A6F;
+
+}
+.whatsapp{
+     position:absolute;
+     right:510;
+     font-family:corbel;
+
+     color:#809A6F;
+     }
